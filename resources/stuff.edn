@@ -1,0 +1,5 @@
+[:div.container
+ [:div.column]
+ [:div.column
+  [:h1 "Some stuff"]
+  [:h4 "Some interesting stuff"]]]
