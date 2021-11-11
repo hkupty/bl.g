@@ -1,0 +1,4 @@
+#:bl.g.html{:content [[:h1 "Some stuff"]
+                      [:h4 "Some interesting stuff"]]
+            :footer [:p "Some footer"]
+            :title "My awesome title"}

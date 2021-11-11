@@ -1,8 +1,13 @@
 [[:head
-  [:title #html/placeholder [:title]]
+  #html/placeholder [:bl.g.html/title :title]
   [:meta {:charset "utf-8"}]
   #html/include-css "//cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.css"
   #html/include-css "//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css"
-  #html/include-css "https://fonts.googleapis.com/css?family=Quicksand&display=swap"
-  #html/include-css "/css/base.css"]
- [:body #html/placeholder [:content]]]
+  #html/include-css "https://fonts.googleapis.com/css?family=Quicksand&display=swap"]
+ [:body [:div.container
+         #html/placeholder [:bl.g.html/menu :div.column]
+         [:div.column
+          #html/placeholder [:bl.g.html/banner :div.row]
+          [:div.row
+           #html/placeholder [:bl.g.html/content :div.column]]]
+         [:div.row #html/placeholder [:bl.g.html/footer :div.column]]]]]
